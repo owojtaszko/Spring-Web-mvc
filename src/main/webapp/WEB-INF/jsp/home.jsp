@@ -9,5 +9,8 @@
 <h1>Spring JSP SDAcademy</h1>
 <h2 class="hello-title">Sample Hello! ${name}</h2>
 <script src="/js/main.js"></script>
+
+<div> ${projects} </div>
+
 </body>
 </html>
