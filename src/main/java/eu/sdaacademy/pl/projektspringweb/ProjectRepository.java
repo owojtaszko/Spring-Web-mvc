@@ -1,11 +1,13 @@
 package eu.sdaacademy.pl.projektspringweb;
 
 import model.Project;
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+@Repository
 public class ProjectRepository {
 
     public List<Project> getProjects(){
